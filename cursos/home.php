@@ -9,7 +9,7 @@
 <iframe id="iFrame_SQL" name="iFrame_SQL"></iframe>	
 	<div id="main">
 
-<a class="name"href="#newbar" onclick="javascript:fun_iFrameWrite('iFrame_SQL','cursos/')">
+<a class="name"href="#newbar" onclick="javascript:fun_iFrameWrite('iFrame_SQL','cursos/basico/index.php')">
 		<div id="carpeta1" class="icon">
 			Basico
 		</div>
