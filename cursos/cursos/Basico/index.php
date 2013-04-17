@@ -1,16 +1,21 @@
 <?php
       include_once ('../../info.php');//se llama la informacion de la pagina
 ?>
+<link rel="stylesheet"  href="../../css/Stylecuerobasico.css">
 </head>
 <body>
-
+	<article id="menu">
+		<section>
+		 <a href="html/"><img src="../../img/HTML.png"></a>
+		 <a href="css/"><img src="../../img/CSS.png"></a>
+		 <a href="js/"><img src="../../img/JAVASCRIPT.png"></a>
+       </section>
+   </article>
 </body>
 </html>
-<style type="text/css">
-	body{
-		background-color: rgba(0,0,0,0.9);
-		}
-</style>
+
+
+
 
 
 
