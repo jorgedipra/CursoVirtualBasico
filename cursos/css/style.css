@@ -1,4 +1,15 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+ /*css de index
+@(index.php)
+@
+*/ 
+ /*-----------formateo de etiquetas------------- */
+ a, abbr, acronym, address, applet, big, blockquote, 
+ body, caption, cite, code, dd, del, dfn, div, dl, 
+ dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, 
+ html, iframe, img, ins, kbd, label, legend, li, object, 
+ ol, p, pre, q, s, samp, small, span, strike, strong, 
+ sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, 
+ var {
 	border:0pt none;
 	font-family:inherit;
 	font-size: 100%;
@@ -8,49 +19,43 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	padding:0pt;
 	vertical-align:baseline;
 }
+/*----------------Escritorio---------------------*/
+a{
+	color: #78B1F6;
+	text-decoration: none;
+}
 body{
 	background: #09387E;
-	line-height:14px;
-	font-size: 11px;
-	font-family: Tahoma, Arial,  Verdana, Helvetica, sans-serif;
 	color: #FFFFFF;
+	cursor: default !Important;
+	font-family: Tahoma, Arial,  Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height:14px;
 	margin:0pt;
 	overflow: hidden;
-	cursor: default !Important;
 }
 html,body{
 	height:100%;
 	overflow: none;
 }
-.clear{
-	clear: both;
-	height: 0;
-	visibility: hidden;
-	display: block;
-}
-a{
-	text-decoration: none;
-	color: #78B1F6;
-}
-
 #main{
+	background: transparent url(../img/background.jpg) repeat-x scroll bottom center;
 	height: 100%;
-	background: transparent url(http://liviucerchez.com/test/os-desktop/images/background.jpg) repeat-x scroll bottom center;
 	overflow: none;
 }
 
 #main div.icon{
-	min-width: 64px;
-	min-height: 64px;
-	padding: 0px 14px 8px;
-	border: 1px solid transparent;
-	margin: 0pt auto;
-	text-align: left;
-	position: absolute;
-	display: none;
 	background-position: center 4px;
 	background-repeat: no-repeat;
+	border: 1px solid transparent;
+	display: none;
 	left: 20px;
+	margin: 0pt auto;
+	min-height: 64px;
+	min-width: 64px;
+	padding: 0px 14px 8px;
+	position: absolute;
+	text-align: left;
 }
 #main div.icon:hover{
 	background-color: #0C2D62 !Important;
@@ -60,37 +65,48 @@ a{
 	background-color: #0a2c5e !Important;
 	border: 1px solid #3b567e;
 }
-#main div.icon div.name{
+#main div.icon a.name{
+	color: #fff;
 	margin-top: 70px;
 	text-align: center;
-	color: #fff;
 }
-#main #designs{
-	background-image: url(http://liviucerchez.com/test/os-desktop/images/designs.png);
+#main #carpeta1,
+#main #carpeta2,
+#main #carpeta3{
+	/*background-size*/
+	-webkit-background-size:70px 70px;
+	   -moz-background-size:70px 70px;
+	     -o-background-size:70px 70px;
+	        background-size:70px 70px;
+}
+
+
+#main #carpeta1{
+	background-image: url(../img/carpeta1.png);
 	top: 50px;
 }
-#main #projects{
-	background-image: url(http://liviucerchez.com/test/os-desktop/images/projects.png);
+#main #carpeta2{
+	background-image: url(../img/carpeta2.png);
 	top: 150px;
 }
-#main #songs{
-	background-image: url(http://liviucerchez.com/test/os-desktop/images/songs.png);
+#main #carpeta3{
+	background-image: url(../img/carpeta3.png);
 	top: 250px;
 }
 
 #taskbar{
-	width: 100%;
-	height: 30px;
-	line-height: 30px;
-	background: #5C9CCC url(http://liviucerchez.com/test/os-desktop/images/bar.png) repeat-x scroll 50% 50%;
-	position: absolute;
-	left: 0;
-	top: 0px;
-	padding: 1px 0px;
+	background: #000 url(../img/bar.png) repeat-x scroll 50% 50%;
+	color: #FFFFFF;
 	font-size: 11px;
 	font-weight: bold;
-	color: #FFFFFF;
+	height: 30px;
+	left: 0;
+	line-height: 30px;
+	padding: 1px 0px;
+	position: absolute;
 	text-align: center;
+	top: 0px;
+	width: 100%;
 }
 #taskbar a {
 	color: #FFFFFF;
@@ -99,17 +115,23 @@ a{
 	color: #78B1F6;
 }
 #taskbar #logout, #taskbar #preview, #taskbar #clock {
+	border-left: 1px solid #666;
 	float: right;
 	padding: 0 10px;
-	border-left: 1px solid #666;
 }
 #taskbar #clock{
-	background: url(http://liviucerchez.com/test/os-desktop/images/clock.png) no-repeat 5px center;
-	padding-left: 33px;
+	background: url(../img/clock.png) no-repeat 5px center;
 	border-left: 1px solid #575757;
+	padding-left: 33px;
 }
 .copyright {
+	color: #efefef;
 	float: left;
 	padding-left: 10px;
-	color: #efefef;
+}
+.clear{
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
 }

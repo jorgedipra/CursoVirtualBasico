@@ -19,18 +19,18 @@ $view= new stdClass();
 			OS Descritorio de Aprendisaje
 		</div>
 		<div id="clock"></div>
-		<div id="logout"><a href="#">Adelante</a></div>
+		<div id="logout"><a href="#">Home</a></div>
 		<div id="preview"><a href="#">Atras</a></div>
 	</div>
 	<div id="main">
-		<div id="designs" class="icon">
-			<div class="name">HTML</div>
+		<div id="carpeta1" class="icon">
+			<a class="name">Basico</a>
 		</div>
-		<div id="projects" class="icon">
-			<div class="name">CSS</div>
+		<div id="carpeta2" class="icon">
+			<a class="name">Medio</a>
 		</div>
-		<div id="songs" class="icon">
-			<div class="name">JAVASCRTIP</div>
+		<div id="carpeta3" class="icon">
+			<a class="name">Avanzado</a>
 		</div>
 	</div>
 </body>
