@@ -1,0 +1,71 @@
+ /*css de Escritorio
+@(home.php)
+@
+*/ 
+ /*--------------- --fondo-- ---------------- */
+#main{
+	background: url(../img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+    	 -o-background-size: cover;
+    		background-size: cover;
+    height: 100%;
+	overflow: none;
+}
+/*---- --animacion de carepeta con nombre-- ----*/
+#main div.icon{
+	background-position: center 4px;
+	background-repeat: no-repeat;
+	border: 1px solid transparent;
+	display: none;
+	left: 20px;
+	margin: 0pt auto;
+	min-height: 64px;
+	min-width: 64px;
+	padding: 0px 14px 8px;
+	position: absolute;
+	text-align: left;
+}
+#main div.icon:hover{
+	background-color: #0C2D62 !Important;
+	border: 1px solid #2D5FA6;
+}
+#main div.icon.active{
+	background-color: #0a2c5e !Important;
+	border: 1px solid #3b567e;
+}
+#main a.name{
+	color: #fff;
+	margin-top: 70px;
+	text-align: center;
+}
+#main #carpeta1,
+#main #carpeta2,
+#main #carpeta3{
+	/*background-size*/
+	-webkit-background-size:70px 70px;
+	   -moz-background-size:70px 70px;
+	     -o-background-size:70px 70px;
+	        background-size:70px 70px;
+}
+
+/*-- --imagen y ubicacion carpetas de escritorio-- --*/
+#main #carpeta1{
+	background-image: url(../img/carpeta1.png);
+	top: 50px;
+}
+#main #carpeta2{
+	background-image: url(../img/carpeta2.png);
+	top: 150px;
+}
+#main #carpeta3{
+	background-image: url(../img/carpeta3.png);
+	top: 250px;
+}
+#iFrame_SQL{
+     position: absolute;
+     top:30px;
+     width: 100%;
+     height: 100%;
+     opacity: 0.7;
+	}

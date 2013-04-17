@@ -1,8 +1,11 @@
- /*css de index
-@(index.php)
+ /*css de barra de navegacion 
+@(home.php)
 @
 */ 
  /*-----------formateo de etiquetas------------- */
+@import url("http://www.charlottedann.com/ect/symbolset/ss-social.css");
+@import url("http://fonts.googleapis.com/css?family= Shojumaru");
+
  a, abbr, acronym, address, applet, big, blockquote, 
  body, caption, cite, code, dd, del, dfn, div, dl, 
  dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, 
@@ -38,62 +41,6 @@ html,body{
 	height:100%;
 	overflow: none;
 }
-#main{
-	background: transparent url(../img/background.jpg) repeat-x scroll bottom center;
-	height: 100%;
-	overflow: none;
-}
-
-#main div.icon{
-	background-position: center 4px;
-	background-repeat: no-repeat;
-	border: 1px solid transparent;
-	display: none;
-	left: 20px;
-	margin: 0pt auto;
-	min-height: 64px;
-	min-width: 64px;
-	padding: 0px 14px 8px;
-	position: absolute;
-	text-align: left;
-}
-#main div.icon:hover{
-	background-color: #0C2D62 !Important;
-	border: 1px solid #2D5FA6;
-}
-#main div.icon.active{
-	background-color: #0a2c5e !Important;
-	border: 1px solid #3b567e;
-}
-#main div.icon a.name{
-	color: #fff;
-	margin-top: 70px;
-	text-align: center;
-}
-#main #carpeta1,
-#main #carpeta2,
-#main #carpeta3{
-	/*background-size*/
-	-webkit-background-size:70px 70px;
-	   -moz-background-size:70px 70px;
-	     -o-background-size:70px 70px;
-	        background-size:70px 70px;
-}
-
-
-#main #carpeta1{
-	background-image: url(../img/carpeta1.png);
-	top: 50px;
-}
-#main #carpeta2{
-	background-image: url(../img/carpeta2.png);
-	top: 150px;
-}
-#main #carpeta3{
-	background-image: url(../img/carpeta3.png);
-	top: 250px;
-}
-
 #taskbar{
 	background: #000 url(../img/bar.png) repeat-x scroll 50% 50%;
 	color: #FFFFFF;
@@ -124,6 +71,27 @@ html,body{
 	border-left: 1px solid #575757;
 	padding-left: 33px;
 }
+/*---iconos y titulos de barra---*/
+#titulo{
+	font-size: 16px;
+}
+#tituloOs{
+	font-family: 'Shojumaru', cursive;
+	font-size: 18px;
+}
+#tituloHer{
+	font-size: 16px;
+	left: 250px;
+	position: absolute;
+	top:3px;
+}
+#tituloHer a{
+	padding-bottom: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0;
+}
+/*-------------------*/
 .copyright {
 	color: #efefef;
 	float: left;
