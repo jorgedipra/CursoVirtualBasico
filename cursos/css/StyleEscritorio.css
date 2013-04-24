@@ -4,13 +4,17 @@
 */ 
  /*--------------- --fondo-- ---------------- */
 #main{
-	background: url(../img/background.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-    	 -o-background-size: cover;
-    		background-size: cover;
+
+	background:url(../img/web4.png) top right no-repeat,            
+	           url(../img/web2.png) top left no-repeat;
+	
+    -webkit-background-size:25%;
+       -moz-background-size:25%;
+         -o-background-size:25%;
+            background-size:25%;
     height: 100%;
 	overflow: none;
+	
 }
 /*---- --animacion de carepeta con nombre-- ----*/
 #main div.icon{
@@ -27,8 +31,8 @@
 	text-align: left;
 }
 #main div.icon:hover{
-	background-color: #0C2D62 !Important;
-	border: 1px solid #2D5FA6;
+	background-color: rgba(0, 0, 0, 0.5) !Important;
+	border: 1px solid rgba(12, 45, 98, 1);
 }
 #main div.icon.active{
 	background-color: #0a2c5e !Important;

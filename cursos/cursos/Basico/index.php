@@ -10,6 +10,7 @@
 		 <a href="css/"><img src="../../img/CSS.png"></a>
 		 <a href="js/"><img src="../../img/JAVASCRIPT.png"></a>
        </section>
+       <div id="tituloBS">Basico</div>
    </article>
 </body>
 </html>

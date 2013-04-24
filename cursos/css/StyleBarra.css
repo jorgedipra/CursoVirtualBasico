@@ -28,7 +28,11 @@ a{
 	text-decoration: none;
 }
 body{
-	background: #09387E;
+	background: url(../img/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+       -moz-background-size: cover;
+    	 -o-background-size: cover;
+    		background-size: cover;
 	color: #FFFFFF;
 	cursor: default !Important;
 	font-family: Tahoma, Arial,  Verdana, Helvetica, sans-serif;

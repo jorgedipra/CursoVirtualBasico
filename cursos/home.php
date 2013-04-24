@@ -14,12 +14,12 @@
 			Basico
 		</div>
 </a>	
-<a class="name"href="#newbar" onclick="javascript:fun_iFrameWrite('iFrame_SQL','/url')">	
+<a class="name"href="#newbar" onclick="javascript:fun_iFrameWrite('iFrame_SQL','cursos/Medio/index.php')">	
 		<div id="carpeta2" class="icon">
 			Medio
 		</div>
 </a>		
-<a class="name"href="#newbar" onclick="javascript:fun_iFrameWrite('iFrame_SQL','img/null.gif')">		
+<a class="name"href="#newbar" onclick="javascript:fun_iFrameWrite('iFrame_SQL','cursos/Avanzado/index.php')">		
 		<div id="carpeta3" class="icon">
 			Avanzado
 		</div>

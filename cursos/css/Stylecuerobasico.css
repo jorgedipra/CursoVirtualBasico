@@ -1,12 +1,12 @@
 body{
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.7);
 	}
 #menu{
-	left: 125px;
-	right: 125px;
-	position: absolute;
-	top:0;
 	height: 90%;
+	left: 125px;
+	position: absolute;
+	right: 125px;
+	top:0;
 }
 #menu section{
 	position: absolute;
@@ -15,10 +15,61 @@ body{
     width:100%;
 }
 #menu section img{
-	border: none;
-	height: 20%;
+    background-color: rgba(250,250,250,0.9);
+    border: 10px solid rgba(250,250,250,1);
+    -webkit-border-bottom-right-radius: 100%;
+     -webkit-border-bottom-left-radius: 100%;
+        -moz-border-radius-bottomright: 100%;
+         -moz-border-radius-bottomleft: 100%;
+            border-bottom-right-radius: 100%;
+             border-bottom-left-radius: 100%;
+	padding: 1.8%;
 	position: relative;
-	width: 20%;
-	padding: 2%;
+	width: 22%;
 	z-index: 999;
+}
+#tituloBS{
+	border: solid 2px;
+	color: #fff;
+	font-size: 500%;
+	margin: 10% auto;
+	position: relative;
+	text-align: center;
+	width: 25%;
+}
+@media screen and (max-width:1130px) {
+#tituloBS{
+	font-size: 400%;	
+	width: 200px;
+}
+}
+@media screen and (max-width:450px) {
+#menu{
+	height: 300px;
+	left: 0;
+	margin: 0 auto;
+	position: relative;
+	right: 0;
+	width: 220px;
+}
+}
+@media screen and (max-height:750px) {
+#tituloBS{
+margin-top: 5%;
+}
+}
+@media screen and (max-height:600px) {
+#tituloBS{
+margin-top: 2.5%;
+}
+}
+@media screen and (max-height:450px){
+#menu{
+	height: 300px;
+	left: 0;
+	margin: 0 auto;
+	position: relative;
+	right: 0;
+	width: 220px;
+}	
 }
