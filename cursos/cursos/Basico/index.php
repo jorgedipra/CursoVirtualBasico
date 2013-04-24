@@ -2,6 +2,7 @@
       include_once ('../../info.php');//se llama la informacion de la pagina
 ?>
 <link rel="stylesheet"  href="../../css/Stylecuerobasico.css">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Rancho" />
 </head>
 <body>
 	<article id="menu">
