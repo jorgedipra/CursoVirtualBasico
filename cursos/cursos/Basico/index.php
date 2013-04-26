@@ -8,7 +8,7 @@
 <body>
 	<article id="menu">
 	<ul>
-		<a href="css/">
+		<a href="html/">
 		<li>	
 			<div class="inner">
 				<img src="../../img/SHTML.png">
@@ -25,7 +25,7 @@
 		</div>
 		</li>
 		</a>
-		<a href="css/">
+		<a href="js/">
 		<li>	
 			<div class="inner">
 					<img src="../../img/SJAVASCRIPT.png">
