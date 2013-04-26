@@ -14,7 +14,6 @@
             background-size:25%;
     height: 100%;
 	overflow: none;
-	
 }
 /*---- --animacion de carepeta con nombre-- ----*/
 #main div.icon{
@@ -72,4 +71,20 @@
      width: 100%;
      height: 100%;
      opacity: 1;
-	}
+}
+@media screen and (max-width:475px) {
+html{
+    float : left;
+    height:315px;
+    overflow : scroll;
+    width : 475px;
+}
+}
+@media screen and (max-height:315px) {
+html{
+    float : left;
+    height:315px;
+    overflow : scroll;
+    width : 475px;
+}
+}

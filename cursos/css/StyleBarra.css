@@ -27,6 +27,7 @@ a{
 	color: #78B1F6;
 	text-decoration: none;
 }
+
 body{
 	background: url(../img/background.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
@@ -106,4 +107,29 @@ html,body{
 	display: block;
 	height: 0;
 	visibility: hidden;
+}
+@media screen and (max-width:568px) {
+#clock{
+	opacity: 0;
+}	
+#titulo{
+	font-size: 16px;
+}
+#tituloHer{
+	font-size: 16px;
+	left: 250px;
+}
+#taskbar{
+	width: 567px;
+}
+}
+@media screen and (max-width:480px) {
+#clock{
+	opacity: 1;
+}	
+}
+@media screen and (max-height:320px) {
+#clock{
+	opacity: 1;
+}	
 }

@@ -3,40 +3,36 @@
 ?>
 <link rel="stylesheet"  href="../../css/Stylecuerobasico.css">
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Rancho" />
+<link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<article id="menu">
 	<ul>
-		<li>
-		 <div class="wrapper">
+		<a href="css/">
+		<li>	
 			<div class="inner">
-				<a href="html/">
-				<img src="../../img/HTML.png">
-				<p>html</p>
-				</a>
-  			</div>
+				<img src="../../img/SHTML.png">
+				<div class="subti">HTML<div>						
 		</div>
 		</li>
-		<li>
-		<div class="wrapper">
+		</a>
+		<a href="css/">
+		<li>	
 			<div class="inner">
-				<a href="css/">
-					<img src="../../img/CSS.png">
-					<p>css</p>
-				</a>		 
-  			</div>
+					<img src="../../img/SCSS.png">
+					<div class="subti">CSS<div>
+						 
 		</div>
 		</li>
-		<li>
-		<div class="wrapper">
-			<div class="inner">			
-				<a href="js/">
-					<img src="../../img/JAVASCRIPT.png">
-					<p>javascript</p>
-				</a>
-  			</div>
+		</a>
+		<a href="css/">
+		<li>	
+			<div class="inner">
+					<img src="../../img/SJAVASCRIPT.png">
+					<div class="subti">JS<div>
 		</div>
 		</li>
+		</a>
        </ul>
        <div id="tituloBS">Basico</div>
    </article>
