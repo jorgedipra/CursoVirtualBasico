@@ -1,5 +1,9 @@
 body{
-	background-color: rgba(0,0,0,0.7);
+	background: rgba(0, 0, 0, 0.9) url(../img/FondoCursoBase.JPG) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+       -moz-background-size: cover;
+    	 -o-background-size: cover;
+    		background-size: cover;   		
 	}
 #menu{
 	height: 90%;
@@ -8,24 +12,38 @@ body{
 	right: 125px;
 	top:0;
 }
-#menu section{
+#menu ul{
 	position: absolute;
+    padding:0;
     text-align: center;
     top: 30%;
     width:100%;
 }
-#menu section img{
-    background-color: rgba(250,250,250,0.9);
-    border: 10px solid rgba(250,250,250,1);
-    -webkit-border-bottom-right-radius: 100%;
-     -webkit-border-bottom-left-radius: 100%;
-        -moz-border-radius-bottomright: 100%;
-         -moz-border-radius-bottomleft: 100%;
-            border-bottom-right-radius: 100%;
-             border-bottom-left-radius: 100%;
-	padding: 1.8%;
+#menu ul li{/*compatibilidad*/
+	background-image:-ms-linear-gradient(top, #fff, #eee);
+	background-image:-o-linear-gradient( top, #fff, #eee);
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+	background-image:-webkit-linear-gradient(top, #fff, #eee);
+	background-image:linear-gradient(top, #fff, #eee);
+	background:#eee;background-image:-moz-linear-gradient(top, #fff, #eee);
+	border-radius: 0px;
+	border-radius:5px;-moz-box-shadow:0 1px 0 #9a9a9a;
+	border:1px solid #ddd;-moz-border-radius:5px;-webkit-border-radius:5px;
+	-webkit-box-shadow:0 1px 0 #9a9a9a;
+	        box-shadow:0 1px 0 #9a9a9a;
+	display: inline-block;
+	padding:5px;
 	position: relative;
+	vertical-align: top;
+	margin: 2%;
 	width: 22%;
+	z-index: 90;
+}
+#menu ul img{
+    background-color: rgba(250,250,250,0);
+    border:none;
+	position: relative;
+	width:80%;
 	z-index: 999;
 }
 #tituloBS{
@@ -39,6 +57,20 @@ body{
 	text-shadow: 0.04em 0.04em #FFFFFF,  0.08em 0.08em #1ba29a;
 	width: 25%;
 }
+.inner {/*compatibilidad*/
+	border:1px dashed #ccc;
+	padding:0.5em;
+	-moz-box-shadow:0 0 0 1px #fff;
+	-webkit-box-shadow:0 0 0 1px #fff;
+	box-shadow:0 0 0 1px #fff;
+    text-align: center;	
+    margin: 0 auto;	
+
+}
+.inner p{
+
+}
+/*arreglar  responsive desainer*/
 @media screen and (max-width:1130px) {
 #tituloBS{
 	font-size: 400%;	

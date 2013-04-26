@@ -6,20 +6,39 @@
 </head>
 <body>
 	<article id="menu">
-		<section>
-		 <a href="html/"><img src="../../img/HTML.png"></a>
-		 <a href="css/"><img src="../../img/CSS.png"></a>
-		 <a href="js/"><img src="../../img/JAVASCRIPT.png"></a>
-       </section>
+	<ul>
+		<li>
+		 <div class="wrapper">
+			<div class="inner">
+				<a href="html/">
+				<img src="../../img/HTML.png">
+				<p>html</p>
+				</a>
+  			</div>
+		</div>
+		</li>
+		<li>
+		<div class="wrapper">
+			<div class="inner">
+				<a href="css/">
+					<img src="../../img/CSS.png">
+					<p>css</p>
+				</a>		 
+  			</div>
+		</div>
+		</li>
+		<li>
+		<div class="wrapper">
+			<div class="inner">			
+				<a href="js/">
+					<img src="../../img/JAVASCRIPT.png">
+					<p>javascript</p>
+				</a>
+  			</div>
+		</div>
+		</li>
+       </ul>
        <div id="tituloBS">Basico</div>
    </article>
 </body>
-</html>
-
-
-
-
-
-
-
-    
+</html>    
