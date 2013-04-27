@@ -7,12 +7,15 @@
      	<span id="tituloOs">OS </span>
      	<span id="titulo"> Escritorio de Aprendizaje</span>
 	   <section id="tituloHer">
-	   <a class="Escritorio" class="name"href="#newbar" onclick="javascript:fun_iFrameWrite('iFrame_SQL','img/null.gif')">
-	   	instagram</a>
-	   <a class="Informacion" class="name"href="#newbar" onclick="javascript:fun_iFrameWrite('iFrame_SQL','/url')">
-	   	readmill</a>
-	   <a class="Herramientas" class="name"href="#newbar" onclick="javascript:fun_iFrameWrite('iFrame_SQL','/url')">
-	   	stackoverflow</a>
+	   <a class="Escritorio name" href="#newbar" onclick="javascript:fun_iFrameWrite('iFrame_SQL','img/null.gif')">
+	   <img src="img/Desktop.png">
+	   </a>
+	   <a class="Informacion name" href="#newbar" onclick="javascript:fun_iFrameWrite('iFrame_SQL','/url')">
+	   	<img src="img/Informacion.png">
+	   </a>
+	   <a class="Herramientas name" href="#newbar" onclick="javascript:fun_iFrameWrite('iFrame_SQL','/url')">
+	   	<img src="img/Herramienta.png">
+	   </a>
        </section>
 		</div>
 		<div id="clock"></div>

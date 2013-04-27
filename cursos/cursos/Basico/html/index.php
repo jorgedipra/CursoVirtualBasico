@@ -12,7 +12,7 @@
             <h1>Curso Basico Html<span> contenido:</span></h1>
             <div class="content">
                 <ul class="bmenu">
-                    <li><a href="taller/taller1.php">Taller N° 1</a></li>
+                    <li><a href="taller/">Taller N° 1</a></li>
                     <li><a href="#">Taller N° 2</a></li>
                     <li><a href="#">Taller N° 3</a></li>
                     <li><a href="#">Conseptos</a></li>

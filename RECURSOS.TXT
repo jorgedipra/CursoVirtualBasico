@@ -21,4 +21,6 @@ http://cssdeck.com/labs/7y2gz430
 MUÑEQUITO
 http://cssdeck.com/labs/yhipdwkd
 
+texto e colores
+http://thecodeplayer.com/walkthrough/mysql-syntax-highlighter-javascript-regex
 
