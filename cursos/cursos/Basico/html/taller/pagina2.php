@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
 
-<?php
-      include_once ('../../../../info.php');//se llama la informacion de la pagina
-?>
 	<link rel='stylesheet' type='text/css' href='css/style.css' />	
 	<!--[if IE]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

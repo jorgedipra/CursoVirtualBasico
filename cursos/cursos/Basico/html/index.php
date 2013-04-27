@@ -1,6 +1,3 @@
-<?php
-      include_once ('../../../info.php');//se llama la informacion de la pagina
-?>
 <link rel="stylesheet"  href="../../../css/CursoBasicoHtml.css" />
 <!--[if IE]>
 	<link rel="stylesheet" type="text/css" href="../../../css/styleIE.css" />
