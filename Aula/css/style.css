@@ -1,0 +1,192 @@
+/* [attribute],[attribute=value],attribute,value,border:,px,em,solid,-moz-,text-decoration:,color:,top,top:,right,right:,left,left:,-webkit-,width:,height:,border-radius:,box-shadow:,red,blue,black,green,pink,orange,yellow,violet,indigo,lime,peru,darkSlateGray,gray,brown,olive,background:,url,-o-,font:,bold,verdana,resize:,none,background-color:,animation:,position:,absolute,initial,fixed,inherit,relative,static,z-index:,white-space:,pre-wrap,100%,50%,25%,75%,display:,inline-block,border-image:,border-top-image,border-right-image,border-bottom-image,border-left-image,border-corner-image:,border-top-left-image,border-top-right-image,border-bottom-left-image,border-bottom-right-image,round,stretch,border-top-left-radius:,border-top-right-radius:,border-bottom-right-radius:,border-bottom-left-radius:,inset,content:,background-origin:,background-clip:,content:,background-image:, background-position:,center,bottom,bottom:,background-repeat:,no-repeat,repeat,background-attachment:,background-size:,margin:, inline-block,block,repeat-x,padding:,auto,cover,contain,rgba(,rgb(,opacity:,:hover,hsla(,text-shadow:,text-overflow:,ellipsis-word,clip,ellipsis,box-sizing:,outline-offset:,outline: ,both,overflow:,max-height,max,min-height:,min,horizontal,vertical,max-width,min-width,float:,list-style-type:,padding-left:,padding-right:,margin-right:,margin-left:,a[,p[,overflow-x,overflow-y,transition-property,transition-duration,transition-timing-function,transition-delay,all,transition-timing-function:,ease,linear,cubic-bezier(,transition-delay:,ease-in-out,margin-bottom:,padding-bottom:,margin-top:,padding-top:,-ms-,text-align:,transition: ,white,-xv-voice-volume:,x-soft,cue-after:,x-slow,voice-family:,female,x-low,speak:,spell-out,font-family:,src:,url(,font-weight:,sans-serif,arial,column-width:,column-gap:,column-count:,column-rule:,max-width:,max-height:,font-size:,rotate(,transform:,deg,source,slice,width,outset,word-wrap:,break-word,font-style:,normal,italic,oblique,translate(,scale(,skew(,matrix(,rotateY(,rotateX(,keyframes,from,to,clear:,caption-side:,animation-duration:,animation-name:,animation-timing-function:,animation-delay:,animation-iteration-count:,animation-direction:,animation-play-state:,appearance:,button,clip:rect(,cursor:,crosshair,help,wait,default,move,crosshair,e-resize,n-resize,ne-resize,nw-resize,pointer,progress,s-resize,direction:,rtl,inline,table,table-cell,list-item,table-caption,visibility:,hidden,visible,collapse,vertical-align:,text-top,sub,super,text-bottom,body,html,:focus,:target,:active,::selection{
+ */
+/*
+xampp/htdocs/www/CursoVirtualBasico/Aula/css/style.styl
+ */
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+h2 {
+  margin-left: 10%;
+}
+h2,
+h1 {
+  color: #fff;
+  font-family: Bradley Hand ITC;
+  height: 7%;
+  left: 0;
+  margin-top: 0;
+  padding-left: 10px;
+  top: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  background: rgba(0,0,0,0.5);
+  display: inline-block;
+  font-size: 16px;
+  height: 50px;
+  padding: 10px 0;
+  vertical-align: top;
+}
+#contenedos {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+#contenedor {
+  height: 90%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  padding: 0;
+  position: absolute;
+  width: 90%;
+}
+#Autivisual {
+  background: url("../img/fondoVideo.jpg");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border: none;
+  height: 48%;
+  left: 0;
+  position: absolute;
+  width: 59%;
+}
+#Autivisual iframe {
+  height: 85%;
+  margin-left: 1%;
+  margin-top: 8%;
+  position: absolute;
+  top: 0;
+  width: 98%;
+  z-index: 0;
+}
+#intruductorio {
+  background: url("../img/fondotexto.png");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border: none;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  height: 48%;
+  position: absolute;
+  right: 0;
+  width: 39%;
+}
+#intruductorio #texto {
+  color: #597cf0;
+  height: 85%;
+  margin: 0 auto;
+  padding-bottom: 2.5px;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+  padding-top: 0px;
+  width: 85%;
+}
+.bloque {
+  background: url("../img/fondotexto.png");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border: none;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  bottom: 0;
+  color: #fff;
+  font-family: Bradley Hand ITC;
+  height: 40%;
+  position: absolute;
+  width: 30%;
+}
+.bloque article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  margin-top: 45%;
+}
+#bloque1 {
+  left: 0;
+}
+#bloque1 {
+  left: 35%;
+}
+#bloque3 {
+  right: 0;
+}
+/*------------scroll--------*/
+.scrollbar {
+  background: #f5f5f5;
+  -moz-border-radius-bottomleft: 40px;
+  -moz-border-radius-topleft: 40px;
+  -webkit-border-bottom-left-radius: 40px;
+  -webkit-border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  color: #597cf0;
+  height: 99%;
+  margin: 0 auto;
+  overflow: auto;
+  padding-bottom: 2.5px;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+  padding-top: 0px;
+  width: 100%;
+}
+.force-overflow {
+  min-height: 450px;
+}
+#style-7::-webkit-scrollbar-track {
+  -moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #f5f5f5;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#style-7::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+#style-7::-webkit-scrollbar-thumb {
+  background: url("../img/fondotexto.png");
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+/*--------------diseño adaptable--------------*/
+@media screen and (max-width:800px) {
+  h2,
+  h1 {
+    font-size: 16px;
+  }
+  #intruductorio #texto {
+    height: 80%;
+    margin-left: 3%;
+  }
+  .bloque article {
+    font-size: 20px;
+  }
+}
