@@ -46,18 +46,23 @@ $texto=$_POST["texto"];
 			
 		        <div class="content">
 			        <div class="content-1">		
-						<h2>Formulario</h2>
-						<p>Titulo de video
-						<input type="text" name="username" id="username" autocomplete="off"/>
-						</p>
+						<h2>Formulario</h2>					
 
 
 <form name="Control" action="prototipo.php" method="POST">
 
-Titulo de video:<input value="<?php echo $TituloVideo ?>" type ="text" name="Titulo" required><br>
-video(url): 	<input value="<?php echo $UrlVideo ?>" type ="text" name="Video" required><br>
+<p>
+Titulo de video:<input value="<?php echo $TituloVideo ?>" type ="text" name="Titulo" autocomplete="off"  required><br>
+</p>
+<p>
+video(url): 	<input value="<?php echo $UrlVideo ?>" type ="url" name="Video" required="url"><br>
+</p>
+<p>
 Titulo texto: 	<input value="<?php echo $TituloTexto ?>" type ="text" name="TituloTexto" required><br>
+</p>
+<p>
 Texto:<br> 		<textarea id="Descripcion" name="texto" required></textarea><br>
+</p>
 <input type="submit" value="enviar">
 <input type="reset" value="borrar">
 </form>
@@ -69,11 +74,11 @@ Texto:<br> 		<textarea id="Descripcion" name="texto" required></textarea><br>
 	<section id="contenedos"> 
 		<ul>
 		<li id="Autivisual">
-			<h1><span id="status"><?php echo $TituloVideo; ?></span></h1>			
+			<h1><span id="stTitulo"><?php echo $TituloVideo; ?></span></h1>			
 			<iframe  src="<?php echo $UrlVideo; ?>" frameborder="0" allowfullscreen></iframe>
 		</li>
 		<li id="intruductorio">
-			<h2><?php echo $TituloTexto; ?></h2>	
+			<h2><span id="staTT"><?php echo $TituloTexto; ?></span></h2>	
 			<section id="texto">
 				<article class="scrollbar" id="style-7">
 				<em><?php echo $texto; ?><em>
